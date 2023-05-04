@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ScaleStockTracker.Controllers
+namespace ScaleStockTracker.Controllers.Empresa
 {
     public class EmpresaController : Controller
     {
-        public IActionResult Index()
+        public IActionResult EmpresaBoard()
         {
             return View();
         }
